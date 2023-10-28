@@ -9,3 +9,9 @@ if permission is denied change the permission
 chmod 600 path of the key
 ```
 And then try to ssh again
+
+# OR
+Go to the path of the key and open the cmd in the path and 
+```
+ssh -i key-name.pem ubuntu@123.456.789
+```
